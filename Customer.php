@@ -2,11 +2,6 @@
 
 class Customer {
 	
-	
-	public function _construct() {
-		
-	}
-	
 	public function setFirstName($firstName) {
 		$this->firstName = $firstName;		
 		return $this;
@@ -26,10 +21,6 @@ class Customer {
 	}
 	
 	public function setEmail($email) {
-		//$results = array();
-		//foreach($email as $key => $value) {
-		//	$results[$key] = $value;
-		//}
 		$this->email[] = $email;
 		return $this;
 	}

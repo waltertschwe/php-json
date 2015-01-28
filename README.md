@@ -1,0 +1,2 @@
+- Customer.php --> data model
+- customer-index.php --> returns Customer Object in JSON
