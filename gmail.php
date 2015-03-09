@@ -8,8 +8,9 @@ if(empty($email)) {
     $email = "wschweitzer00@gmail.com";
 }
 
-$client_id = '745205624787-6cf8vp4krousol9rj5cfj76nnnrjtne8.apps.googleusercontent.com';
-$client_secret = 'wve-UspV2W5SKBa2V_I9m2mB';
+
+$clientId = "";
+$clientSecret = "";
 $redirect_uri = 'http://ec2-50-19-187-57.compute-1.amazonaws.com/box/gmail.php';
 
 $client = new Google_Client();
